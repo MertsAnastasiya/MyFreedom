@@ -11,7 +11,7 @@ let weekDays = {
     4: 'thursday',
     5: 'friday',
     6: 'saturday',
-    7: 'sunday'
+    7: 'sunday',
 }
 let day = 3;
 console.log(weekDays[day]);
@@ -21,7 +21,7 @@ console.log(weekDays[day]);
 let languages = {
     js:['jQuery', 'Angular'], 
     php: 'hello', 
-    css: 'world'
+    css: 'world',
 }
 console.log(languages.js[0]);
 
