@@ -66,9 +66,9 @@
 
 //Ответ:
 
-pockets.__proto__ = bed;
-bed.__proto__ = table;
-table.__proto__ = head;
+Object.setPrototypeOf(pockets, bed);
+Object.setPrototypeOf(bed, table);
+Object.setPrototypeOf(table, head);
 
 // 2.2.После этого ответьте на вопрос, как быстрее искать glasses: обращением к pockets.glasses или head.glasses? Попробуйте протестировать.
 
